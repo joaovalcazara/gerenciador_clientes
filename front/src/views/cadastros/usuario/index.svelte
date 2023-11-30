@@ -2,7 +2,7 @@
 <script>
     import { navigate } from 'svelte-routing';
     import AuthController from '../controllers/AuthController';
-   
+    
     let usuario = { username: '', password: '' };
   
     async function cadastrarUsuario() {
